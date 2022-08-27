@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 10vh;
+}
+.navbar-collapse {
+  justify-content: flex-end !important;
+}
+.carousel {
+  height: 90vh;
+  overflow: hidden;
+}
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+.secone__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin-bottom: 50px;
+}
+.secone__block{
+  text-align: center;
+  padding: 20px;
+  border-radius: 50%;
+  text-decoration: none;
+  height: 200px;
+  width: 200px;
+  border: 1px solid rgb(0, 0, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(9, 162, 244, 0.258);
+  transition: 0.3s;
+}
+.secone__block:hover{
+  transform: scale(1.1);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.402);
+}
+.secone__block i{
+  font-size: 32px;
+  margin-bottom: 20px;
+
+}
+
+.sec_title{
+  text-align: center;
+  font-size: 32px;
+  color: rgb(0, 187, 255);
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.sec__teo{
+  background: url('../imgs/bgthree.jpg') center/cover no-repeat;
+  height: 380px;
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+  margin-top: 40px;
+}
+.sec__teo h3{
+  font-size: 34px;
+  color: white;
+}
+.parda{
+  position: absolute;
+  height: 380px;
+  background: rgba(0, 0, 0, 0.344);
+  width: 100%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+.sec_three{
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+}
+
+.footer{
+  height: 300px;
+}
+.footer__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__icons a{
+  text-decoration: none;
+}
+.footer__icons a i{
+  font-size: 32px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
