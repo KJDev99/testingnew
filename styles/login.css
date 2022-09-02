@@ -92,7 +92,7 @@ body {
 .registr {
 	width: 320px;
 	padding: 30px;
-	padding-top: 100px;
+	padding-top: 30px;
 }
 .error__parol{
 	color: red;
@@ -106,7 +106,9 @@ body {
 	padding: 20px 0px;	
 	position: relative;	
 }
-
+.registr__filed{
+	padding: 5px 0px;
+}
 .login__icon {
 	position: absolute;
 	top: 30px;
