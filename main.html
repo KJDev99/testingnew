@@ -9,19 +9,22 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./styles/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body>
 
-  <header class="header">
+  <header class="header" id="main">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container nav__content">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="./main.html">
+          <img src="./imgs/logo.jpg" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,7 +32,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Asosiy</a>
+              <a class="nav-link active" aria-current="page" href="./main.html" >Asosiy</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -37,9 +40,9 @@
                 Fanlar
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Oliy Matematika</a></li>
-                <li><a class="dropdown-item" href="#">Oliy Matematika</a></li>
-                <li><a class="dropdown-item" href="#">Oliy Matematika</a></li>
+                <li><a class="dropdown-item" href="#oliy_matem">Oliy Matematika</a></li>
+                <li><a class="dropdown-item" href="#energetik">Energetikada Matematik Masalalar</a></li>
+                <li><a class="dropdown-item" href="#ax">Axborot Texnologiyalari</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -51,14 +54,16 @@
             <li class="nav-item">
               <a class="nav-link" href="./login.html">Kirish</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./editacc.html">Kirish</a>
-            </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <section class="sec__onee">
+      <div class="parda">
+        <h3>Oliy matematika fanining fanlararo aloqadorligi </h3>
+      </div>
+    </section>
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -69,13 +74,16 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./imgs/bgone.jpg" class="d-block w-100" alt="...">
+          <h3>Oliy matematika fanining fanlararo aloqadorligi </h3>
+          <img src="./imgs/bgmain.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./imgs/bgtwo.jpg" class="d-block w-100" alt="...">
+          <h3>Oliy matematika fanining fanlararo aloqadorligi </h3>
+          <img src="./imgs/bg2.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./imgs/bgthree.jpg" class="d-block w-100" alt="...">
+          <h3>Oliy matematika fanining fanlararo aloqadorligi </h3>
+          <img src="./imgs/bg1.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -88,80 +96,132 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>
+    </div> -->
   </header>
   <main class="main">
-    <section class="sec_one">
+    <section class="sec_one" id="oliy_matem">
       <div class="container">
         <div class="row">
           <div class="col-12 sec_title">Oliy Matematika</div>
-          <div class="col-lg-3 secone__item">
-            <a href="#" class="secone__block">
-              <i class="fab fa-telegram"></i>
-              <h4>Math</h4>
-              <p>Lorem, ipsum dolor.</p>
-            </a>
-          </div>
-          <div class="col-lg-3 secone__item">
-            <a href="#" class="secone__block">
-              <i class="fab fa-telegram"></i>
-              <h4>Math</h4>
-              <p>Lorem, ipsum dolor.</p>
-            </a>
-          </div>
-          <div class="col-lg-3 secone__item">
-            <a href="#" class="secone__block">
-              <i class="fab fa-telegram"></i>
-              <h4>Math</h4>
-              <p>Lorem, ipsum dolor.</p>
-            </a>
-          </div>
-          <div class="col-lg-3 secone__item">
-            <a href="#" class="secone__block">
-              <i class="fab fa-telegram"></i>
-              <h4>Math</h4>
-              <p>Lorem, ipsum dolor.</p>
-            </a>
+          <div class="col-12 row justify-content-around">
+            <div class="col-lg-2 secone__item">
+              <a href="./main/maruza.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Maruza</h4>
+              </a>
+            </div>
+            <div class="col-lg-2 secone__item">
+              <a href="./main/amaliy.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Amaliy</h4>
+              </a>
+            </div>
+            <div class="col-lg-2 secone__item">
+              <a href="./main/taqdimot.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Taqdimot</h4>
+              </a>
+            </div>
+            <div class="col-lg-2 secone__item">
+              <a href="./main/video.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Video Dars</h4>
+              </a>
+            </div>
+            <div class="col-lg-2 secone__item">
+              <a href="./main/testing.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Test</h4>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="sec__teo">
       <div class="parda">
-        <h3>Lorem ipsum dolor sit amet.</h3>
+        <h3>Oliy matematika fanining amaliy ahamiyati</h3>
       </div>
     </section>
-    <section class="sec_three">
+    <section class="sec_three" id="energetik">
       <div class="container">
         <div class="row">
-          <div class="col-12 sec_title">Oliy Matematika</div>
-          <div class="col-lg-3 secone__item">
-            <a href="#" class="secone__block">
-              <i class="fab fa-telegram"></i>
-              <h4>Math</h4>
-              <p>Lorem, ipsum dolor.</p>
-            </a>
+          <div class="col-12 sec_title">Energetikada Matematik Masalalar</div>
+          <div class="col-12 row justify-content-around">
+            <div class="col-lg-2 secone__item">
+              <a href="./main/maruza.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Maruza</h4>
+              </a>
+            </div>
+            <div class="col-lg-2 secone__item">
+              <a href="./main/amaliy.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Amaliy</h4>
+              </a>
+            </div>
+            <div class="col-lg-2 secone__item">
+              <a href="./main/taqdimot.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Taqdimot</h4>
+              </a>
+            </div>
+            <div class="col-lg-2 secone__item">
+              <a href="./main/video.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Video Dars</h4>
+              </a>
+            </div>
+            <div class="col-lg-2 secone__item">
+              <a href="./main/testing.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Test</h4>
+              </a>
+            </div>
           </div>
-          <div class="col-lg-3 secone__item">
-            <a href="#" class="secone__block">
-              <i class="fab fa-telegram"></i>
-              <h4>Math</h4>
-              <p>Lorem, ipsum dolor.</p>
-            </a>
-          </div>
-          <div class="col-lg-3 secone__item">
-            <a href="#" class="secone__block">
-              <i class="fab fa-telegram"></i>
-              <h4>Math</h4>
-              <p>Lorem, ipsum dolor.</p>
-            </a>
-          </div>
-          <div class="col-lg-3 secone__item">
-            <a href="#" class="secone__block">
-              <i class="fab fa-telegram"></i>
-              <h4>Math</h4>
-              <p>Lorem, ipsum dolor.</p>
-            </a>
+        </div>
+      </div>
+    </section>
+    <section class="sec__two">
+      <div class="parda">
+        <h3>Sifatli ta'lim istalgan vaqtda, hamma joyda</h3>
+      </div>
+    </section>
+    <section class="sec_four" id="ax">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 sec_title">Axborot Texnologiyalari</div>
+          <div class="col-12 row justify-content-around">
+            <div class="col-lg-2 secone__item">
+              <a href="./main/maruza.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Maruza</h4>
+              </a>
+            </div>
+            <div class="col-lg-2 secone__item">
+              <a href="./main/amaliy.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Amaliy</h4>
+              </a>
+            </div>
+            <div class="col-lg-2 secone__item">
+              <a href="./main/taqdimot.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Taqdimot</h4>
+              </a>
+            </div>
+            <div class="col-lg-2 secone__item">
+              <a href="./main/video.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Video Dars</h4>
+              </a>
+            </div>
+            <div class="col-lg-2 secone__item">
+              <a href="./main/testing.html" class="secone__block">
+                <i class="bi bi-calculator-fill"></i>
+                <h4>Test</h4>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -171,7 +231,9 @@
   <footer class="footer navbar-light bg-light">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container nav__content">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="./main.html">
+          <img src="./imgs/logo.jpg" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -179,7 +241,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Asosiy</a>
+              <a class="nav-link active" aria-current="page" href="./main.html" >Asosiy</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -187,9 +249,9 @@
                 Fanlar
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Oliy Matematika</a></li>
-                <li><a class="dropdown-item" href="#">Oliy Matematika</a></li>
-                <li><a class="dropdown-item" href="#">Oliy Matematika</a></li>
+                <li><a class="dropdown-item" href="#oliy_matem">Oliy Matematika</a></li>
+                <li><a class="dropdown-item" href="#energetik">Energetikada Matematik Masalalar</a></li>
+                <li><a class="dropdown-item" href="#ax">Axborot Texnologiyalari</a></li>
               </ul>
             </li>
             <li class="nav-item">

@@ -190,3 +190,7 @@ body {
 .social-login__icon:hover {
 	transform: scale(1.5);	
 }
+
+.button__text{
+	text-decoration: none !important;
+}

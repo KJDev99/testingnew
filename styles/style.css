@@ -58,7 +58,7 @@
   margin-bottom: 40px;
 }
 .sec__teo{
-  background: url('../imgs/bgthree.jpg') center/cover no-repeat;
+  background: url('../imgs/bg4.jpg') center/cover no-repeat;
   height: 380px;
   width: 100%;
   margin-bottom: 50px;
@@ -66,6 +66,36 @@
   margin-top: 40px;
 }
 .sec__teo h3{
+  font-size: 34px;
+  color: white;
+}
+.sec__onee{
+  background: url('../imgs/bgmain2.jpg') center/cover no-repeat;
+  height: 380px;
+  width: 100%;
+  position: relative;
+}
+.sec__onee h3{
+  font-size: 34px;
+  color: white;
+}
+.sec__teo h3{
+  font-size: 34px;
+  color: white;
+}
+.sec__teo h3{
+  font-size: 34px;
+  color: white;
+}
+.sec__two{
+  background: url('../imgs/bgmain.jpg') center/cover no-repeat;
+  height: 380px;
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+  margin-top: 40px;
+}
+.sec__two h3{
   font-size: 34px;
   color: white;
 }
@@ -103,4 +133,65 @@
   padding-right: 15px;
   margin-top: 30px;
   margin-bottom: 40px;
+}
+
+
+.section__title{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 34px;
+  color: rgb(34, 0, 255);
+}
+.section__title:hover{
+  text-shadow: 3px 2px 3px rgba(56, 54, 54, 0.267);
+}
+
+.maruza_item{
+  display: flex;
+  text-decoration: none;
+  border: 1px solid rgba(17, 17, 17, 0.615);
+  padding: 10px 25px;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+.maruza_item i{
+  color: black;
+  font-size: 44px;
+}
+
+.maruza_item .info{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.maruzalar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.navbar-brand img{
+  width: 45px;
+}
+.carousel-item{
+  position: relative;
+}
+.carousel-item h3{
+  font-size: 48px;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+@media (max-width:992px){
+  .show{
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.943);
+    padding-left: 40px;
+  }
+}
+.login__submita{
+  text-decoration: none;
 }
